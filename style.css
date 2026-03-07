@@ -17,6 +17,7 @@ body{
 }
 span{
     color: var(--main-color);
+    display: inline-block;
 }
 .container{
     width: 100%;
@@ -95,13 +96,12 @@ animation: heart1 1.5s ease infinite
 	position: absolute;
 	top: 50%;
 	line-height: 100px;
-	height: 90px;
+	height: 100px;
 	margin-top: -68px;
-	font-size: 30px;
+	font-size: 20px;
 	width: 100%;
 	text-align: center;
 	color: transparent;
-    font-size: 20px;
 	-webkit-animation: blurFadeInOut 3s ease-in backwards;
 	-moz-animation: blurFadeInOut 3s ease-in backwards;
 	-ms-animation: blurFadeInOut 3s ease-in backwards;
@@ -132,6 +132,28 @@ animation: heart1 1.5s ease infinite
 	-ms-animation-delay: 9s;
 	animation-delay: 9s;
 }
+.sp-container h2.frame-6 {
+	font-size: 20px;
+	-webkit-animation-delay: 12s;
+	-moz-animation-delay: 12s;
+	-ms-animation-delay: 12s;
+	animation-delay: 12s;
+}
+.sp-container h2.frame-7 {
+	font-size: 20px;
+	-webkit-animation-delay: 15s;
+	-moz-animation-delay: 15s;
+	-ms-animation-delay: 15s;
+	animation-delay: 15s;
+}
+.sp-container h2.frame-8 {
+	font-size: 20px;
+	-webkit-animation-delay: 18s;
+	-moz-animation-delay: 18s;
+	-ms-animation-delay: 18s;
+	animation-delay: 18s;
+}
+
 .sp-container h2.frame-5 {
 	-webkit-animation: none;
 	-moz-animation: none;
@@ -142,26 +164,26 @@ animation: heart1 1.5s ease infinite
 	text-shadow: 0px 0px 1px rgb(255, 255, 255);
 }
 .sp-container h2.frame-5 span {
-	-webkit-animation: blurFadeIn 3s ease-in 12s backwards;
-	-moz-animation: blurFadeIn 1s ease-in 12s backwards;
-	-ms-animation: blurFadeIn 3s ease-in 12s backwards;
-	animation: blurFadeIn 3s ease-in 12s backwards;
+	-webkit-animation: blurFadeIn 3s ease-in 19s backwards;
+	-moz-animation: blurFadeIn 1s ease-in 19s backwards;
+	-ms-animation: blurFadeIn 3s ease-in 19s backwards;
+	animation: blurFadeIn 3s ease-in 19s backwards;
     font-size: 20px;
 	color: transparent;
 	text-shadow: 0px 0px 1px rgb(255, 255, 255);
 }
 .sp-container h2.frame-5 span:nth-child(2) {
-	-webkit-animation-delay: 13s;
-	-moz-animation-delay: 13s;
-	-ms-animation-delay: 13s;
-	animation-delay: 13s;
+	-webkit-animation-delay: 20s;
+	-moz-animation-delay: 20s;
+	-ms-animation-delay: 20s;
+	animation-delay: 20s;
     font-size: 20px;
 }
 .sp-container h2.frame-5 span:nth-child(3) {
-	-webkit-animation-delay: 14s;
-	-moz-animation-delay: 14s;
-	-ms-animation-delay: 14s;
-	animation-delay: 14s;
+	-webkit-animation-delay: 21s;
+	-moz-animation-delay: 21s;
+	-ms-animation-delay: 21s;
+	animation-delay: 21s;
     font-size: 20px;
 }
 .sp-globe {

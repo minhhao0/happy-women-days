@@ -254,10 +254,11 @@ function sendLove(){
     // setTimeout(()=>{
     //     message.style.opacity=1;
     // },100);
-    setTimeout(()=>{
-        document.getElementById('music').play();
-    },1000);
  for(let i=0;i<50;i++){
     setTimeout(createHeart,i*100);
  }
+}
+window.onclick =()=>{
+    music=document.getElementById('music');
+    music.play();
 }
